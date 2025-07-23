@@ -8,8 +8,11 @@ body {
 .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 letras por fila */
-    gap: 30px;
+    gap: 60px;
     justify-items: center;
+    margin: 1000;  
+    margin-right: 50px;
+    padding: 20px; 
 }
 
 .letter-box {
@@ -25,8 +28,8 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.3s;
-    }
+    transition: transform 0.3s;        
+}
 
 .letter-box:hover {
     transform: scale(1.05);
@@ -43,6 +46,7 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
     width: 160px;
+
 }
 
 .panel img {
@@ -55,6 +59,7 @@ body {
 .image-box {
     text-align: center;
     font-size: 14px;
+    z-index: 1;
 }
 
     .image-box p {
